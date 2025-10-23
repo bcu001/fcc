@@ -1,0 +1,1 @@
+- info - https://chatgpt.com/c/68e92bb9-88f0-8321-9581-996842c9a3e9

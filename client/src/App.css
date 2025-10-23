@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root {
+    /* Main Backgrounds and Text */
+    --backgroundClr: #0F172A;          /* Deep Navy/Slate - Page Background */
+    --foregroundClr: #E2E8F0;          /* Off-White/Light Slate - Main Text */
+    
+    /* Primary Action/Highlight Colors */
+    --primary: #6366F1;               /* Tailwind Indigo-500 - CTA/Highlight */
+    --primaryForeground: #FFFFFF;      /* Text color for primary button */
+    
+    /* Card/Elevated Surface Colors */
+    --secondary: #1E293B;             /* Darker Slate - Card Background */
+    --secondaryForeground: #94A3B8;    /* Muted Text (Race/Class/Details) */
+    
+    /* Component Specific */
+    --statBox: #334155;                /* Dark Blue/Gray - Stat Box Background */
+    --input-bg: #020617;               /* Very Dark Input Background */
+    --charCard: var(--secondary);
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE Mono", sans-serif;
+    background-color: var(--backgroundClr);
+    color: var(--foregroundClr);
+}
+
+input, option, select{
+    background-color: var(--input-bg);
+    color: var(--foregroundClr);
+}

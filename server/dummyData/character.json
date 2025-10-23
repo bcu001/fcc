@@ -1,0 +1,342 @@
+[
+    {
+        "name": "Monkey D. Luffy",
+        "race": "Human",
+        "class": "Captain",
+        "gender": "male",
+        "stats": {
+            "strength": 20,
+            "agility": 18,
+            "intelligence": 8,
+            "luck": 20
+        },
+        "level": 100,
+        "status": "alive",
+        "special ability": "Hito Hito no Mi, Model: Nika (Gear 5)",
+        "description": "The determined captain of the Straw Hat Pirates, whose body is rubber due to his Devil Fruit.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Roronoa Zoro",
+        "race": "Human",
+        "class": "Swordsman",
+        "gender": "male",
+        "stats": {
+            "strength": 19,
+            "agility": 16,
+            "intelligence": 10,
+            "luck": 12
+        },
+        "level": 95,
+        "status": "alive",
+        "special ability": "Three-Sword Style, Conqueror's Haki",
+        "description": "Luffy's first mate and a master of Santōryū (Three-Sword Style).",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Nami",
+        "race": "Human",
+        "class": "Navigator / Thief",
+        "gender": "female",
+        "stats": {
+            "strength": 5,
+            "agility": 15,
+            "intelligence": 19,
+            "luck": 17
+        },
+        "level": 60,
+        "status": "alive",
+        "special ability": "Clima-Tact (Weather Manipulation)",
+        "description": "The navigator and cartographer of the crew, highly skilled in meteorology and stealing.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Usopp",
+        "race": "Human",
+        "class": "Sniper",
+        "gender": "male",
+        "stats": {
+            "strength": 7,
+            "agility": 13,
+            "intelligence": 16,
+            "luck": 15
+        },
+        "level": 50,
+        "status": "alive",
+        "special ability": "Observation Haki / Pop Green Ammo",
+        "description": "The crew's marksman and expert inventor, known for his fantastical lies.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Sanji Vinsmoke",
+        "race": "Human (Modified)",
+        "class": "Cook / Martial Artist",
+        "gender": "male",
+        "stats": {
+            "strength": 17,
+            "agility": 19,
+            "intelligence": 14,
+            "luck": 11
+        },
+        "level": 90,
+        "status": "alive",
+        "special ability": "Black Leg Style, Ifrit Jambe (Fire Kicks)",
+        "description": "The crew's cook, who fights only with his legs to protect his hands for cooking.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Tony Tony Chopper",
+        "race": "Reindeer",
+        "class": "Doctor",
+        "gender": "male",
+        "stats": {
+            "strength": 10,
+            "agility": 10,
+            "intelligence": 18,
+            "luck": 9
+        },
+        "level": 40,
+        "status": "alive",
+        "special ability": "Hito Hito no Mi (Human-Human Fruit)",
+        "description": "The blue-nosed reindeer and ship's doctor who can transform into multiple forms.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Nico Robin",
+        "race": "Human",
+        "class": "Archaeologist",
+        "gender": "female",
+        "stats": {
+            "strength": 12,
+            "agility": 14,
+            "intelligence": 20,
+            "luck": 13
+        },
+        "level": 75,
+        "status": "alive",
+        "special ability": "Hana Hana no Mi (Flower-Flower Fruit)",
+        "description": "The last known survivor of Ohara, able to sprout body parts from any surface.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Franky",
+        "race": "Cyborg",
+        "class": "Shipwright",
+        "gender": "male",
+        "stats": {
+            "strength": 18,
+            "agility": 11,
+            "intelligence": 15,
+            "luck": 10
+        },
+        "level": 65,
+        "status": "alive",
+        "special ability": "Wepons/Arsenal built into Cyborg Body",
+        "description": "The cyborg shipwright of the Thousand Sunny, powered by cola.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Brook",
+        "race": "Skeleton (Human)",
+        "class": "Musician / Swordsman",
+        "gender": "male",
+        "stats": {
+            "strength": 10,
+            "agility": 16,
+            "intelligence": 13,
+            "luck": 14
+        },
+        "level": 70,
+        "status": "alive",
+        "special ability": "Yomi Yomi no Mi (Revive-Revive Fruit)",
+        "description": "The living skeleton musician of the crew, also an accomplished sword fighter.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Jimbei",
+        "race": "Fish-Man (Whale Shark)",
+        "class": "Helmsman / Martial Artist",
+        "gender": "male",
+        "stats": {
+            "strength": 20,
+            "agility": 13,
+            "intelligence": 16,
+            "luck": 11
+        },
+        "level": 92,
+        "status": "alive",
+        "special ability": "Fish-Man Karate / Water Manipulation",
+        "description": "The former Warlord of the Sea and the helmsman of the Straw Hat Pirates.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Trafalgar D. Water Law",
+        "race": "Human",
+        "class": "Pirate Captain / Doctor",
+        "gender": "male",
+        "stats": {
+            "strength": 15,
+            "agility": 17,
+            "intelligence": 19,
+            "luck": 13
+        },
+        "level": 90,
+        "status": "alive",
+        "special ability": "Ope Ope no Mi (Operation Fruit)",
+        "description": "Captain of the Heart Pirates and a doctor who can surgically alter space.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Boa Hancock",
+        "race": "Human (Kuja)",
+        "class": "Pirate Empress / Warlord",
+        "gender": "female",
+        "stats": {
+            "strength": 16,
+            "agility": 15,
+            "intelligence": 12,
+            "luck": 18
+        },
+        "level": 85,
+        "status": "alive",
+        "special ability": "Mero Mero no Mi (Love-Love Fruit)",
+        "description": "The 'Pirate Empress' and captain of the Kuja Pirates, capable of turning people to stone.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Shanks",
+        "race": "Human",
+        "class": "Emperor / Swordsman",
+        "gender": "male",
+        "stats": {
+            "strength": 20,
+            "agility": 18,
+            "intelligence": 17,
+            "luck": 19
+        },
+        "level": 100,
+        "status": "alive",
+        "special ability": "Conqueror's Haki Master",
+        "description": "The captain of the Red Hair Pirates and one of the Four Emperors.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Buggy",
+        "race": "Human",
+        "class": "Warlord / Emperor",
+        "gender": "male",
+        "stats": {
+            "strength": 8,
+            "agility": 10,
+            "intelligence": 10,
+            "luck": 20
+        },
+        "level": 40,
+        "status": "alive",
+        "special ability": "Bara Bara no Mi (Chop-Chop Fruit)",
+        "description": "A former crewmate of Gol D. Roger, whose body can split apart and float.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Smoker",
+        "race": "Human",
+        "class": "Marine Vice Admiral",
+        "gender": "male",
+        "stats": {
+            "strength": 16,
+            "agility": 14,
+            "intelligence": 15,
+            "luck": 10
+        },
+        "level": 70,
+        "status": "alive",
+        "special ability": "Moku Moku no Mi (Plume-Plume Fruit)",
+        "description": "A Marine officer who can turn his body into smoke.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Tashigi",
+        "race": "Human",
+        "class": "Marine Captain / Swordsman",
+        "gender": "female",
+        "stats": {
+            "strength": 13,
+            "agility": 15,
+            "intelligence": 12,
+            "luck": 9
+        },
+        "level": 55,
+        "status": "alive",
+        "special ability": "Skilled Swordsmanship",
+        "description": "A Marine officer who works under Smoker and pursues famous swords.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Donquixote Doflamingo",
+        "race": "Human (Celestial Dragon)",
+        "class": "Warlord / Crime Boss",
+        "gender": "male",
+        "stats": {
+            "strength": 17,
+            "agility": 17,
+            "intelligence": 19,
+            "luck": 10
+        },
+        "level": 95,
+        "status": "alive",
+        "special ability": "Ito Ito no Mi (String-String Fruit)",
+        "description": "The former king of Dressrosa and a ruthless criminal overlord.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Vinsmoke Reiju",
+        "race": "Human (Modified)",
+        "class": "Assassin",
+        "gender": "female",
+        "stats": {
+            "strength": 14,
+            "agility": 18,
+            "intelligence": 15,
+            "luck": 12
+        },
+        "level": 70,
+        "status": "alive",
+        "special ability": "Poison Resistance / Electro-absorption",
+        "description": "The eldest sibling of the Vinsmoke Family, known as 'Poison Pink'.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Bartholomew Kuma",
+        "race": "Human (Buccaneer)",
+        "class": "Warlord / Revolutionary",
+        "gender": "male",
+        "stats": {
+            "strength": 20,
+            "agility": 10,
+            "intelligence": 16,
+            "luck": 14
+        },
+        "level": 90,
+        "status": "alive",
+        "special ability": "Nikyu Nikyu no Mi (Paw-Paw Fruit)",
+        "description": "A former Warlord and Revolutionary Army officer who can repel anything with his paw-pads.",
+        "imageURL": "/defaultAvatar.jpg"
+    },
+    {
+        "name": "Nefertari Vivi",
+        "race": "Human",
+        "class": "Princess",
+        "gender": "female",
+        "stats": {
+            "strength": 7,
+            "agility": 11,
+            "intelligence": 17,
+            "luck": 13
+        },
+        "level": 30,
+        "status": "alive",
+        "special ability": "Exceptional Diplomat / Command",
+        "description": "The princess of the Alabasta Kingdom and a temporary member of the Straw Hat Pirates.",
+        "imageURL": "/defaultAvatar.jpg"
+    }
+]
