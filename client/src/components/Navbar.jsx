@@ -6,17 +6,17 @@ const Navbar = () => {
   return (
     <nav className="border flex justify-between items-center p-3 mx-4 mt-4 rounded">
       <h1 className="font-bold text-xl">
-        <Link to={"/"}>Fantasy Character Creator</Link>
+        <Link to={"/"}>FCC</Link>
       </h1>
       <div className="flex gap-5">
         <Link to={"/"}>
-          <Button text={"Home"} />
+          <span>Home</span>
         </Link>
         <Link to={"/create"}>
-          <Button text={"Create"} />
+        <span>Create</span>
         </Link>
         <Link to={"/about"}>
-          <Button text={"About"} />
+          <span>About</span>
         </Link>
       </div>
     </nav>
