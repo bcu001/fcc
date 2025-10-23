@@ -2,9 +2,10 @@ import axios from "axios";
 import React, { useCallback, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Loader from "@/components/Loader";
-import Stat from "@/components/Stat"; 
+import Stat from "@/components/Stat";
 
 const CharacterPage = () => {
+  const serverURL = import.meta.env.VITE_SEVER_URL;
   const { id } = useParams();
   const [character, setCharacter] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -14,9 +15,7 @@ const CharacterPage = () => {
     setIsLoading(true);
     setHasError(false);
     try {
-      const res = await axios.get(
-        `http://localhost:8000/api/v1/characters/${id}`
-      );
+      const res = await axios.get(`${serverURL}/api/v1/characters/${id}`);
       setCharacter(res.data);
     } catch (error) {
       console.error("Error fetching character:", error);
@@ -43,7 +42,10 @@ const CharacterPage = () => {
         <h1 className="text-xl font-bold text-red-600">
           Error: Character Not Found 🏴‍☠️
         </h1>
-        <p>Could not load character with ID: {id}. Please check the ID or API status.</p>
+        <p>
+          Could not load character with ID: {id}. Please check the ID or API
+          status.
+        </p>
       </div>
     );
   }
@@ -66,13 +68,11 @@ const CharacterPage = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Main Content Box */}
       <div id="charBox" className="flex flex-col md:flex-row gap-5 my-2 w-full">
-        
         {/* Left Column: Core Info & Stats */}
         <div className="border shadow-lg flex-1 p-3 rounded flex flex-col gap-3">
-          
           {/* Image and Name */}
           <div className="flex items-center gap-4 border-b pb-3">
             {character.imageURL && (
@@ -84,7 +84,7 @@ const CharacterPage = () => {
             )}
             <div className="text-xl font-bold">{character.name}</div>
           </div>
-          
+
           {/* Attributes */}
           <div className="space-y-1">
             <div className="flex gap-3">
@@ -110,7 +110,13 @@ const CharacterPage = () => {
             <div className="flex gap-3">
               <div className="font-bold w-20">Status</div>
               <div>{":"}</div>
-              <div className={`text-md font-semibold ${character.status === 'dead' ? 'text-red-500' : 'text-green-500'}`}>
+              <div
+                className={`text-md font-semibold ${
+                  character.status === "dead"
+                    ? "text-red-500"
+                    : "text-green-500"
+                }`}
+              >
                 {character.status}
               </div>
             </div>
@@ -127,23 +133,33 @@ const CharacterPage = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Right Column: Description & Ability */}
         <div className="border shadow-lg flex-2 p-3 rounded flex flex-col gap-4">
           <div>
-            <div className="text-md font-bold border-b pb-1 mb-2">Description</div>
-            <div className="text-sm italic">{character.description || "No Description"}</div>
+            <div className="text-md font-bold border-b pb-1 mb-2">
+              Description
+            </div>
+            <div className="text-sm italic">
+              {character.description || "No Description"}
+            </div>
           </div>
-          
+
           <div>
-            <div className="text-md font-bold border-b pb-1 mb-2">Special Ability</div>
+            <div className="text-md font-bold border-b pb-1 mb-2">
+              Special Ability
+            </div>
             <div className="text-sm font-mono">{specialAbility}</div>
           </div>
 
           {/* Timestamps (Optional but useful for schema completeness) */}
           <div className="text-[10px] text-gray-500 mt-auto pt-3 border-t">
-            <div>Created: {new Date(character.createdAt).toLocaleDateString()}</div>
-            <div>Updated: {new Date(character.updatedAt).toLocaleDateString()}</div>
+            <div>
+              Created: {new Date(character.createdAt).toLocaleDateString()}
+            </div>
+            <div>
+              Updated: {new Date(character.updatedAt).toLocaleDateString()}
+            </div>
           </div>
         </div>
       </div>

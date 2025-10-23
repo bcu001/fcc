@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
+  const serverURL = import.meta.env.VITE_SEVER_URL;
   const [charList, setCharList] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -14,7 +15,7 @@ const HomePage = () => {
   const getAllCharacter = async () => {
     try {
       setIsLoading(true);
-      const res = await axios.get("http://localhost:8000/api/v1/characters/");
+      const res = await axios.get(`${serverURL}/api/v1/characters/`);
       setCharList(res.data);
       setIsLoading(false);
       //   console.log(res.data);

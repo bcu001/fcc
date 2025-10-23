@@ -25,4 +25,4 @@ dist-ssr
 *.sw?
 
 # user made
-src/test.jsx
+src/test

@@ -56,6 +56,7 @@ const FormSelect = ({ label, name, register, errors, options, ...rest }) => (
 
 // Main Component
 const CreateCharacterPage = () => {
+  const serverURL = import.meta.env.VITE_SEVER_URL;
   const navigate = useNavigate();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submissionError, setSubmissionError] = useState(null);
@@ -132,7 +133,7 @@ const CreateCharacterPage = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/v1/characters",
+        `${serverURL}/api/v1/characters`,
         finalPayload
       );
       
