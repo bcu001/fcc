@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Marshall D. Teach (Blackbeard)",
+    "race": "Human (Devil Fruit User)",
+    "class": "New Pirate King Aspirant",
+    "gender": "male",
+    "stats": {
+      "strength": 90,
+      "agility": 50,
+      "intelligence": 80,
+      "luck": 95
+    },
+    "level": 90,
+    "status": "alive",
+    "special ability": "Yami Yami no Mi (Darkness) & Gura Gura no Mi (Quake)",
+    "description": "A former Whitebeard crewmate and current Emperor of the Sea, known for his ambition and unique ability to wield two Devil Fruits.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Boa Hancock",
+    "race": "Human (Devil Fruit User)",
+    "class": "Empress of the Sea",
+    "gender": "female",
+    "stats": {
+      "strength": 70,
+      "agility": 75,
+      "intelligence": 50,
+      "luck": 70
+    },
+    "level": 60,
+    "status": "alive",
+    "special ability": "Mero Mero no Mi (Love-Love Fruit), Haki",
+    "description": "The Pirate Empress and ruler of Amazon Lily, who can turn anyone who lusts after her into stone.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Jinbe",
+    "race": "Fish-Man (Whale Shark)",
+    "class": "Knight of the Sea",
+    "gender": "male",
+    "stats": {
+      "strength": 85,
+      "agility": 65,
+      "intelligence": 70,
+      "luck": 50
+    },
+    "level": 58,
+    "status": "alive",
+    "special ability": "Fish-Man Karate and Jujutsu",
+    "description": "The helmsman of the Straw Hat Pirates, a powerful Fish-Man focused on equality and duty.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Dracule Mihawk",
+    "race": "Human",
+    "class": "World's Greatest Swordsman",
+    "gender": "male",
+    "stats": {
+      "strength": 99,
+      "agility": 80,
+      "intelligence": 70,
+      "luck": 80
+    },
+    "level": 95,
+    "status": "alive",
+    "special ability": "Yoru (Black Blade), Master Haki",
+    "description": "A former Warlord and current co-leader of the Cross Guild, whose goal has been achieved: to be the strongest swordsman.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Usopp",
+    "race": "Human",
+    "class": "Brave Warrior of the Sea Aspirant",
+    "gender": "male",
+    "stats": {
+      "strength": 15,
+      "agility": 40,
+      "intelligence": 60,
+      "luck": 65
+    },
+    "level": 20,
+    "status": "alive",
+    "special ability": "Expert Marksman and Ingenuity/Craftsmanship",
+    "description": "The Straw Hat Pirates' sniper, whose dream is to become a brave warrior of the sea.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Vinsmoke Judge",
+    "race": "Human (Enhanced)",
+    "class": "Conqueror of the North Blue",
+    "gender": "male",
+    "stats": {
+      "strength": 75,
+      "agility": 60,
+      "intelligence": 85,
+      "luck": 40
+    },
+    "level": 50,
+    "status": "alive",
+    "special ability": "Science-enhanced exoskeleton and electric spear",
+    "description": "The King of Germa and scientist who modified his children to be emotionless soldiers.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Sengoku",
+    "race": "Human (Devil Fruit User)",
+    "class": "Former Fleet Admiral",
+    "gender": "male",
+    "stats": {
+      "strength": 88,
+      "agility": 60,
+      "intelligence": 90,
+      "luck": 60
+    },
+    "level": 85,
+    "status": "alive",
+    "special ability": "Hito Hito no Mi, Model: Daibutsu (Giant Buddha)",
+    "description": "The former Fleet Admiral of the Marines, a master strategist and powerful fighter, focused on World Government stability.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Kuzan (Aokiji)",
+    "race": "Human (Devil Fruit User)",
+    "class": "Wanderer of Justice",
+    "gender": "male",
+    "stats": {
+      "strength": 90,
+      "agility": 75,
+      "intelligence": 60,
+      "luck": 50
+    },
+    "level": 80,
+    "status": "alive",
+    "special ability": "Hie Hie no Mi (Ice Logia)",
+    "description": "A former Marine Admiral who follows his own 'Lazy Justice' and now works with Blackbeard.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Sakazuki (Akainu)",
+    "race": "Human (Devil Fruit User)",
+    "class": "Fleet Admiral (Absolute Justice)",
+    "gender": "male",
+    "stats": {
+      "strength": 95,
+      "agility": 60,
+      "intelligence": 70,
+      "luck": 40
+    },
+    "level": 90,
+    "status": "alive",
+    "special ability": "Magu Magu no Mi (Magma Logia)",
+    "description": "The current Fleet Admiral of the Marines, who embodies 'Absolute Justice' with lethal determination.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Brook",
+    "race": "Skeleton (Devil Fruit User)",
+    "class": "World Musician",
+    "gender": "male",
+    "stats": {
+      "strength": 35,
+      "agility": 70,
+      "intelligence": 50,
+      "luck": 40
+    },
+    "level": 35,
+    "status": "alive",
+    "special ability": "Yomi Yomi no Mi (Resurrection Fruit), Soul King Music",
+    "description": "The musician of the Straw Hat Pirates, a living skeleton whose dream is to reunite with Laboon.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Kaido",
+    "race": "Oni (Devil Fruit User)",
+    "class": "World's Strongest Creature",
+    "gender": "male",
+    "stats": {
+      "strength": 100,
+      "agility": 70,
+      "intelligence": 50,
+      "luck": 10
+    },
+    "level": 98,
+    "status": "dead",
+    "special ability": "Uo Uo no Mi, Model: Seiryu (Azure Dragon)",
+    "description": "One of the Four Emperors, who sought the greatest death through constant warfare and violence.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Charlotte Linlin (Big Mom)",
+    "race": "Human (Giant)",
+    "class": "Queen of Totto Land",
+    "gender": "female",
+    "stats": {
+      "strength": 99,
+      "agility": 40,
+      "intelligence": 55,
+      "luck": 70
+    },
+    "level": 96,
+    "status": "dead",
+    "special ability": "Soru Soru no Mi (Soul-Soul Fruit)",
+    "description": "One of the Four Emperors, who dreamed of creating a racially unified kingdom where everyone could eat together.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Bartholomew Kuma",
+    "race": "Cyborg (Former Warlord)",
+    "class": "Revolutionary Servant",
+    "gender": "male",
+    "stats": {
+      "strength": 75,
+      "agility": 55,
+      "intelligence": 60,
+      "luck": 20
+    },
+    "level": 70,
+    "status": "alive",
+    "special ability": "Nikyu Nikyu no Mi (Paw-Paw Fruit)",
+    "description": "A former Warlord and officer of the Revolutionary Army who sacrificed his mind and body for his cause.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Buggy the Clown",
+    "race": "Human (Devil Fruit User)",
+    "class": "Accidental Emperor",
+    "gender": "male",
+    "stats": {
+      "strength": 20,
+      "agility": 30,
+      "intelligence": 25,
+      "luck": 100
+    },
+    "level": 30,
+    "status": "alive",
+    "special ability": "Bara Bara no Mi (Chop-Chop Fruit)",
+    "description": "The leader of the Cross Guild and one of the Four Emperors, achieving greatness purely by chance and reputation.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Silvers Rayleigh",
+    "race": "Human",
+    "class": "Right Hand of the Pirate King",
+    "gender": "male",
+    "stats": {
+      "strength": 90,
+      "agility": 85,
+      "intelligence": 80,
+      "luck": 70
+    },
+    "level": 90,
+    "status": "alive",
+    "special ability": "Master of all three Haki types",
+    "description": "The 'Dark King', former first mate of the Roger Pirates, now a retired coating mechanic.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Tashigi",
+    "race": "Human (Marine Officer)",
+    "class": "Sword Collector",
+    "gender": "female",
+    "stats": {
+      "strength": 40,
+      "agility": 50,
+      "intelligence": 35,
+      "luck": 30
+    },
+    "level": 30,
+    "status": "alive",
+    "special ability": "Swordsmanship and Haki (limited)",
+    "description": "A Marine officer dedicated to retrieving all famous swords from the hands of pirates and criminals.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Benn Beckman",
+    "race": "Human",
+    "class": "Red Hair First Mate",
+    "gender": "male",
+    "stats": {
+      "strength": 85,
+      "agility": 70,
+      "intelligence": 90,
+      "luck": 60
+    },
+    "level": 80,
+    "status": "alive",
+    "special ability": "High Intelligence and Marksman Haki",
+    "description": "The first mate and tactician of the Red Hair Pirates, considered one of the most intelligent people in the East Blue.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Koby",
+    "race": "Human (Marine Officer)",
+    "class": "Naval Hero Aspirant",
+    "gender": "male",
+    "stats": {
+      "strength": 60,
+      "agility": 65,
+      "intelligence": 40,
+      "luck": 50
+    },
+    "level": 45,
+    "status": "alive",
+    "special ability": "Shave (Soru), Observation Haki",
+    "description": "A promising Marine officer who started as a chore boy and seeks to become a Marine Admiral and hero of the sea.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Jewelry Bonney",
+    "race": "Human (Devil Fruit User)",
+    "class": "Age Manipulator",
+    "gender": "female",
+    "stats": {
+      "strength": 30,
+      "agility": 50,
+      "intelligence": 45,
+      "luck": 60
+    },
+    "level": 40,
+    "status": "alive",
+    "special ability": "Toshi Toshi no Mi (Age-Age Fruit)",
+    "description": "A member of the Worst Generation pirate crew who seeks revenge on the World Government.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Shiki the Golden Lion",
+    "race": "Human (Devil Fruit User)",
+    "class": "The Floating Pirate",
+    "gender": "male",
+    "stats": {
+      "strength": 80,
+      "agility": 60,
+      "intelligence": 70,
+      "luck": 50
+    },
+    "level": 85,
+    "status": "alive",
+    "special ability": "Fuwa Fuwa no Mi (Float-Float Fruit)",
+    "description": "A legendary pirate from the same generation as Roger and Whitebeard, who plans to dominate the world.",
+    "imageURL": "/defaultAvatar.jpg"
+  }
+]

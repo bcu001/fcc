@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Giant Sun Immortal Venerable",
+    "race": "Human (Gu Immortal/Venerable)",
+    "class": "Fortune Path Creator",
+    "gender": "male",
+    "stats": {
+      "strength": 80,
+      "agility": 70,
+      "intelligence": 99,
+      "luck": 100
+    },
+    "level": 9,
+    "status": "dead",
+    "special ability": "Luck Path Dao Marks and Methods",
+    "description": "The creator of the Giant Sun bloodline and a legendary venerate who mastered the path of luck.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Trafalgar D. Water Law",
+    "race": "Human (Devil Fruit User)",
+    "class": "Surgeon of Death",
+    "gender": "male",
+    "stats": {
+      "strength": 60,
+      "agility": 75,
+      "intelligence": 90,
+      "luck": 50
+    },
+    "level": 55,
+    "status": "alive",
+    "special ability": "Ope Ope no Mi (Operation Fruit)",
+    "description": "A clever pirate captain and doctor, known for his unique spatial manipulation abilities and strategic thinking.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Cassie",
+    "race": "Human (Awakened)",
+    "class": "Healer of the Core",
+    "gender": "female",
+    "stats": {
+      "strength": 20,
+      "agility": 35,
+      "intelligence": 65,
+      "luck": 70
+    },
+    "level": 30,
+    "status": "alive",
+    "special ability": "Healing and Restoration Aspect",
+    "description": "A vital member of the cohort who possesses essential healing abilities and a steadfast, kind heart.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Sarissa Kael",
+    "race": "Human (Mirror-Blessed)",
+    "class": "Reluctant Warrior",
+    "gender": "female",
+    "stats": {
+      "strength": 40,
+      "agility": 50,
+      "intelligence": 40,
+      "luck": 40
+    },
+    "level": 15,
+    "status": "alive",
+    "special ability": "Enhanced Defense and Shield-work",
+    "description": "A practical and physically capable member of the Mirror Legacy crew, focused on defense and stability.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Ace (Portgas D.)",
+    "race": "Human (Devil Fruit User)",
+    "class": "Flame Fist",
+    "gender": "male",
+    "stats": {
+      "strength": 85,
+      "agility": 70,
+      "intelligence": 35,
+      "luck": 30
+    },
+    "level": 50,
+    "status": "dead",
+    "special ability": "Mera Mera no Mi (Flame Logia)",
+    "description": "Luffy's sworn older brother and former commander of the Whitebeard Pirates, known for his control over fire.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Fairy Maiden He Feng Yang",
+    "race": "Human (Gu Immortal)",
+    "class": "Refinement Path Master",
+    "gender": "female",
+    "stats": {
+      "strength": 20,
+      "agility": 30,
+      "intelligence": 85,
+      "luck": 65
+    },
+    "level": 6,
+    "status": "alive",
+    "special ability": "Refinement Path Great Grandmaster",
+    "description": "An influential female Gu Immortal from the Central Continent, highly skilled in Gu refinement.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Sauron",
+    "race": "Maiar (Dark Lord)",
+    "class": "Will of Domination",
+    "gender": "male",
+    "stats": {
+      "strength": 95,
+      "agility": 70,
+      "intelligence": 100,
+      "luck": 5
+    },
+    "level": 99,
+    "status": "alive",
+    "special ability": "The One Ring, Master of Sorcery and Illusion",
+    "description": "The second Dark Lord of Middle-earth, seeking to dominate all life through the power of the One Ring.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Elsa",
+    "race": "Human (Magical)",
+    "class": "Ice Queen",
+    "gender": "female",
+    "stats": {
+      "strength": 10,
+      "agility": 20,
+      "intelligence": 40,
+      "luck": 60
+    },
+    "level": 40,
+    "status": "alive",
+    "special ability": "Cryokinesis (Ice and Snow Magic)",
+    "description": "A queen with the powerful, innate ability to create and manipulate ice and snow.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Kvothe",
+    "race": "Human (Arcanist/Musician)",
+    "class": "Arcanum Student",
+    "gender": "male",
+    "stats": {
+      "strength": 30,
+      "agility": 60,
+      "intelligence": 90,
+      "luck": 5
+    },
+    "level": 35,
+    "status": "alive",
+    "special ability": "Sympathy, Naming, Master Musician",
+    "description": "A gifted arcanist, musician, and storyteller whose legendary past is shrouded in rumor and sorrow.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Thrawn (Mitth'raw'nuruodo)",
+    "race": "Chiss",
+    "class": "Grand Admiral (Master Strategist)",
+    "gender": "male",
+    "stats": {
+      "strength": 25,
+      "agility": 25,
+      "intelligence": 100,
+      "luck": 70
+    },
+    "level": 70,
+    "status": "alive",
+    "special ability": "Tactical Genius and Art Analysis",
+    "description": "A brilliant and unique Grand Admiral of the Imperial Navy, prioritizing logic and cultural understanding.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Severus Snape",
+    "race": "Human (Wizard)",
+    "class": "Hidden Agent",
+    "gender": "male",
+    "stats": {
+      "strength": 20,
+      "agility": 30,
+      "intelligence": 80,
+      "luck": 15
+    },
+    "level": 65,
+    "status": "dead",
+    "special ability": "Mastery of Potions and Legilimency",
+    "description": "A complex and tormented Potions Master who served as a double agent for the Order of the Phoenix.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Merlin",
+    "race": "Human (Wizard)",
+    "class": "Royal Advisor",
+    "gender": "male",
+    "stats": {
+      "strength": 30,
+      "agility": 30,
+      "intelligence": 95,
+      "luck": 70
+    },
+    "level": 95,
+    "status": "alive",
+    "special ability": "Advanced Prophecy and Magic",
+    "description": "The legendary sorcerer and advisor to King Arthur, often considered the most powerful wizard.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Chopper (Tony Tony)",
+    "race": "Reindeer (Devil Fruit User)",
+    "class": "Future Medical Doctor",
+    "gender": "male",
+    "stats": {
+      "strength": 40,
+      "agility": 30,
+      "intelligence": 60,
+      "luck": 45
+    },
+    "level": 25,
+    "status": "alive",
+    "special ability": "Hito Hito no Mi (Human-Human Fruit), Rumble Ball forms",
+    "description": "The adorable doctor of the Straw Hat Pirates, seeking to cure all diseases in the world.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Saint Nephis",
+    "race": "Human (Awakened)",
+    "class": "The Righteous Flame",
+    "gender": "female",
+    "stats": {
+      "strength": 80,
+      "agility": 60,
+      "intelligence": 50,
+      "luck": 20
+    },
+    "level": 70,
+    "status": "alive",
+    "special ability": "Divine Aspect, Fire Mastery",
+    "description": "The feared and respected commander of the Salvation Guard, obsessed with bringing light to the Dreamscape.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Ciri (Cirilla)",
+    "race": "Human (Elder Blood/Witcher)",
+    "class": "Space-Time Jumper",
+    "gender": "female",
+    "stats": {
+      "strength": 50,
+      "agility": 80,
+      "intelligence": 45,
+      "luck": 85
+    },
+    "level": 60,
+    "status": "alive",
+    "special ability": "Space-Time Manipulation, Witcher Training",
+    "description": "The Child of Elder Blood, capable of traversing time and space, pursued by many powerful entities.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Logen Ninefingers",
+    "race": "Human (Northman)",
+    "class": "The Bloody Nine",
+    "gender": "male",
+    "stats": {
+      "strength": 80,
+      "agility": 50,
+      "intelligence": 20,
+      "luck": 1
+    },
+    "level": 45,
+    "status": "alive",
+    "special ability": "Near-Invulnerability while Raging, Regeneration",
+    "description": "A feared barbarian warrior who tries to escape his violent past, with limited success.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Franky",
+    "race": "Cyborg",
+    "class": "Shipwright of Dreams",
+    "gender": "male",
+    "stats": {
+      "strength": 75,
+      "agility": 40,
+      "intelligence": 65,
+      "luck": 30
+    },
+    "level": 40,
+    "status": "alive",
+    "special ability": "Cyborg Enhancements (Weapons, Cola-Power)",
+    "description": "The passionate shipwright of the Straw Hat Pirates, whose dream is to build a ship that sails the world.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Gu Yue Qing Shu",
+    "race": "Human (Gu Master)",
+    "class": "Sacrificial Guardian",
+    "gender": "male",
+    "stats": {
+      "strength": 25,
+      "agility": 35,
+      "intelligence": 50,
+      "luck": 40
+    },
+    "level": 3,
+    "status": "dead",
+    "special ability": "Wood Attribute Gu (Sacrificial Healing)",
+    "description": "A kind and highly moral Gu Master from the righteous path, known for his sacrifice.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Vin (Vin Venture)",
+    "race": "Human (Mistborn)",
+    "class": "Survivor's Heir",
+    "gender": "female",
+    "stats": {
+      "strength": 30,
+      "agility": 90,
+      "intelligence": 50,
+      "luck": 75
+    },
+    "level": 55,
+    "status": "alive",
+    "special ability": "Full Allomancy (Mistborn Powers)",
+    "description": "A street urchin who discovered she was the most powerful Mistborn, tasked with saving the world.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Harry Potter",
+    "race": "Human (Wizard)",
+    "class": "The Chosen One",
+    "gender": "male",
+    "stats": {
+      "strength": 15,
+      "agility": 40,
+      "intelligence": 30,
+      "luck": 99
+    },
+    "level": 45,
+    "status": "alive",
+    "special ability": "Parseltongue, High-Level Defensive Magic",
+    "description": "The boy who lived, destined to defeat the dark wizard Voldemort.",
+    "imageURL": "/defaultAvatar.jpg"
+  }
+]

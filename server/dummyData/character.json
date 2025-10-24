@@ -1,342 +1,342 @@
 [
-    {
-        "name": "Monkey D. Luffy",
-        "race": "Human",
-        "class": "Captain",
-        "gender": "male",
-        "stats": {
-            "strength": 20,
-            "agility": 18,
-            "intelligence": 8,
-            "luck": 20
-        },
-        "level": 100,
-        "status": "alive",
-        "special ability": "Hito Hito no Mi, Model: Nika (Gear 5)",
-        "description": "The determined captain of the Straw Hat Pirates, whose body is rubber due to his Devil Fruit.",
-        "imageURL": "/defaultAvatar.jpg"
+  {
+    "name": "Fang Yuan",
+    "race": "Human (Gu Immortal)",
+    "class": "Eternal Pursuit Seeker",
+    "gender": "male",
+    "stats": {
+      "strength": 50,
+      "agility": 70,
+      "intelligence": 100,
+      "luck": 1
     },
-    {
-        "name": "Roronoa Zoro",
-        "race": "Human",
-        "class": "Swordsman",
-        "gender": "male",
-        "stats": {
-            "strength": 19,
-            "agility": 16,
-            "intelligence": 10,
-            "luck": 12
-        },
-        "level": 95,
-        "status": "alive",
-        "special ability": "Three-Sword Style, Conqueror's Haki",
-        "description": "Luffy's first mate and a master of Santōryū (Three-Sword Style).",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 9,
+    "status": "alive",
+    "special ability": "Sovereign Immortal Body",
+    "description": "A cunning and ruthless transmigrator who seeks eternal life, viewing the world as a tool.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "race": "Human (Devil Fruit User)",
+    "class": "Pirate King Aspirant",
+    "gender": "male",
+    "stats": {
+      "strength": 95,
+      "agility": 85,
+      "intelligence": 20,
+      "luck": 90
     },
-    {
-        "name": "Nami",
-        "race": "Human",
-        "class": "Navigator / Thief",
-        "gender": "female",
-        "stats": {
-            "strength": 5,
-            "agility": 15,
-            "intelligence": 19,
-            "luck": 17
-        },
-        "level": 60,
-        "status": "alive",
-        "special ability": "Clima-Tact (Weather Manipulation)",
-        "description": "The navigator and cartographer of the crew, highly skilled in meteorology and stealing.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 70,
+    "status": "alive",
+    "special ability": "Hito Hito no Mi, Model: Nika (Gear 5)",
+    "description": "A joyous and determined pirate captain whose greatest dream is to become the King of the Pirates.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Sunny",
+    "race": "Human (Awakened)",
+    "class": "Master Shadow Weaver",
+    "gender": "male",
+    "stats": {
+      "strength": 40,
+      "agility": 80,
+      "intelligence": 65,
+      "luck": 5
     },
-    {
-        "name": "Usopp",
-        "race": "Human",
-        "class": "Sniper",
-        "gender": "male",
-        "stats": {
-            "strength": 7,
-            "agility": 13,
-            "intelligence": 16,
-            "luck": 15
-        },
-        "level": 50,
-        "status": "alive",
-        "special ability": "Observation Haki / Pop Green Ammo",
-        "description": "The crew's marksman and expert inventor, known for his fantastical lies.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 40,
+    "status": "alive",
+    "special ability": "Shadow Manipulation and True Sight",
+    "description": "A former slave in the Dreamscape who struggles with his flaw and seeks to survive and protect his loved ones.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Erissa Kael",
+    "race": "Human (Mirror-Blessed)",
+    "class": "Truth Seeker",
+    "gender": "female",
+    "stats": {
+      "strength": 20,
+      "agility": 35,
+      "intelligence": 75,
+      "luck": 50
     },
-    {
-        "name": "Sanji Vinsmoke",
-        "race": "Human (Modified)",
-        "class": "Cook / Martial Artist",
-        "gender": "male",
-        "stats": {
-            "strength": 17,
-            "agility": 19,
-            "intelligence": 14,
-            "luck": 11
-        },
-        "level": 90,
-        "status": "alive",
-        "special ability": "Black Leg Style, Ifrit Jambe (Fire Kicks)",
-        "description": "The crew's cook, who fights only with his legs to protect his hands for cooking.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 25,
+    "status": "alive",
+    "special ability": "Mirror Reflection/Insight",
+    "description": "A thoughtful individual with a powerful connection to the Mirror, driven to uncover hidden truths.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Nami",
+    "race": "Human",
+    "class": "World Navigator",
+    "gender": "female",
+    "stats": {
+      "strength": 15,
+      "agility": 50,
+      "intelligence": 90,
+      "luck": 30
     },
-    {
-        "name": "Tony Tony Chopper",
-        "race": "Reindeer",
-        "class": "Doctor",
-        "gender": "male",
-        "stats": {
-            "strength": 10,
-            "agility": 10,
-            "intelligence": 18,
-            "luck": 9
-        },
-        "level": 40,
-        "status": "alive",
-        "special ability": "Hito Hito no Mi (Human-Human Fruit)",
-        "description": "The blue-nosed reindeer and ship's doctor who can transform into multiple forms.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 30,
+    "status": "alive",
+    "special ability": "Clima-Tact weather control",
+    "description": "The Straw Hat Pirates' navigator, known for her exceptional cartography and weather prediction skills.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Guts",
+    "race": "Human (Berserker)",
+    "class": "Struggler",
+    "gender": "male",
+    "stats": {
+      "strength": 100,
+      "agility": 60,
+      "intelligence": 40,
+      "luck": 1
     },
-    {
-        "name": "Nico Robin",
-        "race": "Human",
-        "class": "Archaeologist",
-        "gender": "female",
-        "stats": {
-            "strength": 12,
-            "agility": 14,
-            "intelligence": 20,
-            "luck": 13
-        },
-        "level": 75,
-        "status": "alive",
-        "special ability": "Hana Hana no Mi (Flower-Flower Fruit)",
-        "description": "The last known survivor of Ohara, able to sprout body parts from any surface.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 80,
+    "status": "alive",
+    "special ability": "Berserker Armor",
+    "description": "The Black Swordsman, doomed to an eternal struggle against demonic forces.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Griffith",
+    "race": "Apostle (God Hand)",
+    "class": "Hawk of Darkness",
+    "gender": "male",
+    "stats": {
+      "strength": 50,
+      "agility": 50,
+      "intelligence": 95,
+      "luck": 100
     },
-    {
-        "name": "Franky",
-        "race": "Cyborg",
-        "class": "Shipwright",
-        "gender": "male",
-        "stats": {
-            "strength": 18,
-            "agility": 11,
-            "intelligence": 15,
-            "luck": 10
-        },
-        "level": 65,
-        "status": "alive",
-        "special ability": "Wepons/Arsenal built into Cyborg Body",
-        "description": "The cyborg shipwright of the Thousand Sunny, powered by cola.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 99,
+    "status": "alive",
+    "special ability": "Feather of Darkness/Causality Manipulation",
+    "description": "The charismatic former leader of the Band of the Hawk, who sacrificed his comrades for power.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Wei Wuxian",
+    "race": "Human (Cultivator)",
+    "class": "Stygian Magician",
+    "gender": "male",
+    "stats": {
+      "strength": 30,
+      "agility": 40,
+      "intelligence": 85,
+      "luck": 60
     },
-    {
-        "name": "Brook",
-        "race": "Skeleton (Human)",
-        "class": "Musician / Swordsman",
-        "gender": "male",
-        "stats": {
-            "strength": 10,
-            "agility": 16,
-            "intelligence": 13,
-            "luck": 14
-        },
-        "level": 70,
-        "status": "alive",
-        "special ability": "Yomi Yomi no Mi (Revive-Revive Fruit)",
-        "description": "The living skeleton musician of the crew, also an accomplished sword fighter.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 55,
+    "status": "alive",
+    "special ability": "Demonic Cultivation (Stygian Tiger Seal)",
+    "description": "The mischievous, kind-hearted, and tragic founder of Demonic Cultivation.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Makima",
+    "race": "Devil (Control Devil)",
+    "class": "Dominion Seeker",
+    "gender": "female",
+    "stats": {
+      "strength": 70,
+      "agility": 70,
+      "intelligence": 98,
+      "luck": 50
     },
-    {
-        "name": "Jimbei",
-        "race": "Fish-Man (Whale Shark)",
-        "class": "Helmsman / Martial Artist",
-        "gender": "male",
-        "stats": {
-            "strength": 20,
-            "agility": 13,
-            "intelligence": 16,
-            "luck": 11
-        },
-        "level": 92,
-        "status": "alive",
-        "special ability": "Fish-Man Karate / Water Manipulation",
-        "description": "The former Warlord of the Sea and the helmsman of the Straw Hat Pirates.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 90,
+    "status": "dead",
+    "special ability": "Control and Authority",
+    "description": "The Control Devil, who desired to use the Chainsaw Man's power to create a 'better' world.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Sabo",
+    "race": "Human (Devil Fruit User)",
+    "class": "Revolutionary General",
+    "gender": "male",
+    "stats": {
+      "strength": 80,
+      "agility": 75,
+      "intelligence": 70,
+      "luck": 75
     },
-    {
-        "name": "Trafalgar D. Water Law",
-        "race": "Human",
-        "class": "Pirate Captain / Doctor",
-        "gender": "male",
-        "stats": {
-            "strength": 15,
-            "agility": 17,
-            "intelligence": 19,
-            "luck": 13
-        },
-        "level": 90,
-        "status": "alive",
-        "special ability": "Ope Ope no Mi (Operation Fruit)",
-        "description": "Captain of the Heart Pirates and a doctor who can surgically alter space.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 65,
+    "status": "alive",
+    "special ability": "Mera Mera no Mi (Flame Logia)",
+    "description": "The Chief of Staff of the Revolutionary Army and sworn brother to Luffy and Ace.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Eren Yeager",
+    "race": "Human (Titan Shifter)",
+    "class": "Freedom's Herald",
+    "gender": "male",
+    "stats": {
+      "strength": 85,
+      "agility": 60,
+      "intelligence": 50,
+      "luck": 5
     },
-    {
-        "name": "Boa Hancock",
-        "race": "Human (Kuja)",
-        "class": "Pirate Empress / Warlord",
-        "gender": "female",
-        "stats": {
-            "strength": 16,
-            "agility": 15,
-            "intelligence": 12,
-            "luck": 18
-        },
-        "level": 85,
-        "status": "alive",
-        "special ability": "Mero Mero no Mi (Love-Love Fruit)",
-        "description": "The 'Pirate Empress' and captain of the Kuja Pirates, capable of turning people to stone.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 70,
+    "status": "dead",
+    "special ability": "Founding, Attack, and War Hammer Titan powers",
+    "description": "A young man who sought freedom by eliminating all threats to his people, even at a terrible cost.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Gandalf",
+    "race": "Maiar (Istari)",
+    "class": "Guardian of Middle-earth",
+    "gender": "male",
+    "stats": {
+      "strength": 70,
+      "agility": 60,
+      "intelligence": 100,
+      "luck": 80
     },
-    {
-        "name": "Shanks",
-        "race": "Human",
-        "class": "Emperor / Swordsman",
-        "gender": "male",
-        "stats": {
-            "strength": 20,
-            "agility": 18,
-            "intelligence": 17,
-            "luck": 19
-        },
-        "level": 100,
-        "status": "alive",
-        "special ability": "Conqueror's Haki Master",
-        "description": "The captain of the Red Hair Pirates and one of the Four Emperors.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 95,
+    "status": "alive",
+    "special ability": "Istari Magic, Fire, and Light",
+    "description": "A wise wizard sent to Middle-earth to aid the free peoples against the threat of Sauron.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Katniss Everdeen",
+    "race": "Human",
+    "class": "The Mockingjay",
+    "gender": "female",
+    "stats": {
+      "strength": 35,
+      "agility": 70,
+      "intelligence": 45,
+      "luck": 40
     },
-    {
-        "name": "Buggy",
-        "race": "Human",
-        "class": "Warlord / Emperor",
-        "gender": "male",
-        "stats": {
-            "strength": 8,
-            "agility": 10,
-            "intelligence": 10,
-            "luck": 20
-        },
-        "level": 40,
-        "status": "alive",
-        "special ability": "Bara Bara no Mi (Chop-Chop Fruit)",
-        "description": "A former crewmate of Gol D. Roger, whose body can split apart and float.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 25,
+    "status": "alive",
+    "special ability": "Exceptional Archery and Survival Skills",
+    "description": "A hunter from District 12 who became the reluctant symbol of a revolution.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Itachi Uchiha",
+    "race": "Human (Ninja)",
+    "class": "Hidden Protector",
+    "gender": "male",
+    "stats": {
+      "strength": 50,
+      "agility": 80,
+      "intelligence": 90,
+      "luck": 30
     },
-    {
-        "name": "Smoker",
-        "race": "Human",
-        "class": "Marine Vice Admiral",
-        "gender": "male",
-        "stats": {
-            "strength": 16,
-            "agility": 14,
-            "intelligence": 15,
-            "luck": 10
-        },
-        "level": 70,
-        "status": "alive",
-        "special ability": "Moku Moku no Mi (Plume-Plume Fruit)",
-        "description": "A Marine officer who can turn his body into smoke.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 60,
+    "status": "dead",
+    "special ability": "Mangekyō Sharingan (Amaterasu/Tsukuyomi)",
+    "description": "A prodigy who secretly protected his village from the shadows, carrying a great burden.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Elara",
+    "race": "Human (Potential Awakened)",
+    "class": "Ranger of the Coast",
+    "gender": "female",
+    "stats": {
+      "strength": 18,
+      "agility": 30,
+      "intelligence": 15,
+      "luck": 12
     },
-    {
-        "name": "Tashigi",
-        "race": "Human",
-        "class": "Marine Captain / Swordsman",
-        "gender": "female",
-        "stats": {
-            "strength": 13,
-            "agility": 15,
-            "intelligence": 12,
-            "luck": 9
-        },
-        "level": 55,
-        "status": "alive",
-        "special ability": "Skilled Swordsmanship",
-        "description": "A Marine officer who works under Smoker and pursues famous swords.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 5,
+    "status": "alive",
+    "special ability": "none",
+    "description": "A common resident in the world of Shadow Slave, focused on everyday survival.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "V",
+    "race": "Human (Anarchist)",
+    "class": "The Idea",
+    "gender": "male",
+    "stats": {
+      "strength": 40,
+      "agility": 40,
+      "intelligence": 75,
+      "luck": 20
     },
-    {
-        "name": "Donquixote Doflamingo",
-        "race": "Human (Celestial Dragon)",
-        "class": "Warlord / Crime Boss",
-        "gender": "male",
-        "stats": {
-            "strength": 17,
-            "agility": 17,
-            "intelligence": 19,
-            "luck": 10
-        },
-        "level": 95,
-        "status": "alive",
-        "special ability": "Ito Ito no Mi (String-String Fruit)",
-        "description": "The former king of Dressrosa and a ruthless criminal overlord.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 35,
+    "status": "dead",
+    "special ability": "Mastery of Explosives and Combat",
+    "description": "An enigmatic and idealistic freedom fighter seeking to overthrow a tyrannical government.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Hermione Granger",
+    "race": "Human (Witch)",
+    "class": "Knowledge Seeker",
+    "gender": "female",
+    "stats": {
+      "strength": 10,
+      "agility": 15,
+      "intelligence": 100,
+      "luck": 70
     },
-    {
-        "name": "Vinsmoke Reiju",
-        "race": "Human (Modified)",
-        "class": "Assassin",
-        "gender": "female",
-        "stats": {
-            "strength": 14,
-            "agility": 18,
-            "intelligence": 15,
-            "luck": 12
-        },
-        "level": 70,
-        "status": "alive",
-        "special ability": "Poison Resistance / Electro-absorption",
-        "description": "The eldest sibling of the Vinsmoke Family, known as 'Poison Pink'.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 50,
+    "status": "alive",
+    "special ability": "Mastery of Complex Spells",
+    "description": "The brightest witch of her age, dedicated to logic, learning, and fighting for justice.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Darth Vader",
+    "race": "Human (Cyborg/Sith Lord)",
+    "class": "Enforcer of the Empire",
+    "gender": "male",
+    "stats": {
+      "strength": 90,
+      "agility": 40,
+      "intelligence": 60,
+      "luck": 5
     },
-    {
-        "name": "Bartholomew Kuma",
-        "race": "Human (Buccaneer)",
-        "class": "Warlord / Revolutionary",
-        "gender": "male",
-        "stats": {
-            "strength": 20,
-            "agility": 10,
-            "intelligence": 16,
-            "luck": 14
-        },
-        "level": 90,
-        "status": "alive",
-        "special ability": "Nikyu Nikyu no Mi (Paw-Paw Fruit)",
-        "description": "A former Warlord and Revolutionary Army officer who can repel anything with his paw-pads.",
-        "imageURL": "/defaultAvatar.jpg"
+    "level": 85,
+    "status": "dead",
+    "special ability": "The Force (Dark Side), Lightsaber Combat",
+    "description": "The terrifying enforcer of the Galactic Empire, consumed by the Dark Side of the Force.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Killua Zoldyck",
+    "race": "Human (Hunter/Assassin)",
+    "class": "Loyal Companion",
+    "gender": "male",
+    "stats": {
+      "strength": 65,
+      "agility": 95,
+      "intelligence": 50,
+      "luck": 60
     },
-    {
-        "name": "Nefertari Vivi",
-        "race": "Human",
-        "class": "Princess",
-        "gender": "female",
-        "stats": {
-            "strength": 7,
-            "agility": 11,
-            "intelligence": 17,
-            "luck": 13
-        },
-        "level": 30,
-        "status": "alive",
-        "special ability": "Exceptional Diplomat / Command",
-        "description": "The princess of the Alabasta Kingdom and a temporary member of the Straw Hat Pirates.",
-        "imageURL": "/defaultAvatar.jpg"
-    }
+    "level": 55,
+    "status": "alive",
+    "special ability": "Nen (Electric Manipulation), Godspeed",
+    "description": "A former assassin prodigy who seeks a normal life and fiercely protects his friends.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Shanks",
+    "race": "Human",
+    "class": "Emperor of the Sea",
+    "gender": "male",
+    "stats": {
+      "strength": 90,
+      "agility": 80,
+      "intelligence": 70,
+      "luck": 95
+    },
+    "level": 80,
+    "status": "alive",
+    "special ability": "Haki Master (Conqueror's Haki)",
+    "description": "One of the Four Emperors, known for his wisdom, power, and role in inspiring Luffy.",
+    "imageURL": "/defaultAvatar.jpg"
+  }
 ]

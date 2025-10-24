@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Red-Haired Luo Lan",
+    "race": "Human (Gu Immortal)",
+    "class": "Beauty and Talent Cultivator",
+    "gender": "female",
+    "stats": {
+      "strength": 40,
+      "agility": 55,
+      "intelligence": 75,
+      "luck": 55
+    },
+    "level": 6,
+    "status": "alive",
+    "special ability": "Vast Domain Red Hair Gu",
+    "description": "A charismatic and highly talented figure in the righteous path, known for her powerful combat methods.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "race": "Human",
+    "class": "World's Strongest Swordsman",
+    "gender": "male",
+    "stats": {
+      "strength": 98,
+      "agility": 75,
+      "intelligence": 30,
+      "luck": 40
+    },
+    "level": 60,
+    "status": "alive",
+    "special ability": "Three-Sword Style (Santoryu), Haki",
+    "description": "The Straw Hat Pirates' combatant, driven by a solemn promise to become the world's greatest swordsman.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Nephis (Effie)",
+    "race": "Human (Awakened)",
+    "class": "Sun's Radiance",
+    "gender": "female",
+    "stats": {
+      "strength": 80,
+      "agility": 60,
+      "intelligence": 50,
+      "luck": 20
+    },
+    "level": 40,
+    "status": "alive",
+    "special ability": "Sacred Flames, Divine Aspect",
+    "description": "A powerful and grim survivor from the Forgotten Shore, possessing a brilliant but dangerous Aspect.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Karn",
+    "race": "Human (Mirror-Blessed)",
+    "class": "Protector of the Weak",
+    "gender": "male",
+    "stats": {
+      "strength": 70,
+      "agility": 60,
+      "intelligence": 45,
+      "luck": 30
+    },
+    "level": 20,
+    "status": "alive",
+    "special ability": "Enhanced Physicality",
+    "description": "A loyal and physically strong companion who often acts as the shield for his friends.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Nico Robin",
+    "race": "Human (Devil Fruit User)",
+    "class": "Archaeologist of the Void Century",
+    "gender": "female",
+    "stats": {
+      "strength": 12,
+      "agility": 45,
+      "intelligence": 95,
+      "luck": 70
+    },
+    "level": 45,
+    "status": "alive",
+    "special ability": "Hana Hana no Mi (Flower-Flower Fruit)",
+    "description": "The archaeologist of the Straw Hat Pirates, seeking to uncover the true history of the world.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Jon Snow",
+    "race": "Human (Targaryen/Stark)",
+    "class": "Oathsworn Commander",
+    "gender": "male",
+    "stats": {
+      "strength": 55,
+      "agility": 45,
+      "intelligence": 35,
+      "luck": 5
+    },
+    "level": 40,
+    "status": "alive",
+    "special ability": "Warging (limited), Sword Mastery",
+    "description": "The dutiful and honorable 'bastard' who dedicated his life to protecting the realms of men.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Dany (Daenerys Targaryen)",
+    "race": "Human (Targaryen)",
+    "class": "Queen of the Seven Kingdoms (Claimant)",
+    "gender": "female",
+    "stats": {
+      "strength": 15,
+      "agility": 20,
+      "intelligence": 65,
+      "luck": 80
+    },
+    "level": 45,
+    "status": "dead",
+    "special ability": "Dragon Rider, Fire Immunity",
+    "description": "The Mother of Dragons, driven to reclaim her family's throne and break the wheel of oppression.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Ken Kaneki",
+    "race": "Ghoul (One-Eyed)",
+    "class": "Humanity's Bridge",
+    "gender": "male",
+    "stats": {
+      "strength": 60,
+      "agility": 70,
+      "intelligence": 55,
+      "luck": 10
+    },
+    "level": 50,
+    "status": "alive",
+    "special ability": "Rinkaku Kagune, Enhanced Regeneration",
+    "description": "A former human turned ghoul, struggling to reconcile his two identities and find peace.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Dumbledore (Albus)",
+    "race": "Human (Wizard)",
+    "class": "Master Strategist",
+    "gender": "male",
+    "stats": {
+      "strength": 20,
+      "agility": 20,
+      "intelligence": 100,
+      "luck": 95
+    },
+    "level": 90,
+    "status": "dead",
+    "special ability": "Mastery of Magic, Elder Wand",
+    "description": "The former Headmaster of Hogwarts, renowned as the most powerful and wise wizard of his time.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Sanji Vinsmoke",
+    "race": "Human (Enhanced)",
+    "class": "All Blue Seeker",
+    "gender": "male",
+    "stats": {
+      "strength": 70,
+      "agility": 85,
+      "intelligence": 50,
+      "luck": 60
+    },
+    "level": 55,
+    "status": "alive",
+    "special ability": "Black Leg Style (Diable Jambe), Stealth",
+    "description": "The Straw Hat Pirates' chef, whose dream is to find the legendary sea, All Blue.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Han Sen",
+    "race": "Human (Genetic Evolver)",
+    "class": "Transcendent Hunter",
+    "gender": "male",
+    "stats": {
+      "strength": 80,
+      "agility": 75,
+      "intelligence": 70,
+      "luck": 80
+    },
+    "level": 75,
+    "status": "alive",
+    "special ability": "Super Gene Manipulation, Dongxuan Sutra",
+    "description": "A young man who rises from obscurity to become a dominant figure in the treacherous world of the Sanctuary.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Dorian Pavus",
+    "race": "Human (Mage)",
+    "class": "Tevinter Dissident",
+    "gender": "male",
+    "stats": {
+      "strength": 10,
+      "agility": 20,
+      "intelligence": 70,
+      "luck": 40
+    },
+    "level": 30,
+    "status": "alive",
+    "special ability": "Spirit Magic",
+    "description": "A witty and flamboyant mage from the Tevinter Imperium who fights against its corrupt hierarchy.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Dante",
+    "race": "Nephilim (Half-Demon/Half-Angel)",
+    "class": "Demon Hunter",
+    "gender": "male",
+    "stats": {
+      "strength": 90,
+      "agility": 90,
+      "intelligence": 50,
+      "luck": 70
+    },
+    "level": 80,
+    "status": "alive",
+    "special ability": "Devil Trigger, Rebellion Sword",
+    "description": "The laid-back, yet incredibly powerful demon hunter and son of the legendary demon Sparda.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Gu Yue Mo Bei",
+    "race": "Human (Gu Master)",
+    "class": "Vicious Shadow Taker",
+    "gender": "male",
+    "stats": {
+      "strength": 30,
+      "agility": 40,
+      "intelligence": 55,
+      "luck": 20
+    },
+    "level": 3,
+    "status": "alive",
+    "special ability": "Dark Attribute Gu (Vicious Strength)",
+    "description": "A minor antagonist from the Gu Yue clan, known for his pride and hatred towards Fang Yuan.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Bayaz",
+    "race": "Human (Magi)",
+    "class": "First of the Magi",
+    "gender": "male",
+    "stats": {
+      "strength": 50,
+      "agility": 30,
+      "intelligence": 99,
+      "luck": 90
+    },
+    "level": 90,
+    "status": "alive",
+    "special ability": "The Art (Earth Magic), Immortality",
+    "description": "The supremely powerful and manipulative First of the Magi, controlling the fate of kingdoms.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Mikasa Ackerman",
+    "race": "Human (Ackerman Clan)",
+    "class": "Eren's Sentinel",
+    "gender": "female",
+    "stats": {
+      "strength": 70,
+      "agility": 85,
+      "intelligence": 40,
+      "luck": 15
+    },
+    "level": 50,
+    "status": "alive",
+    "special ability": "Enhanced Strength and Combat Skills",
+    "description": "A highly skilled soldier of the Survey Corps, fiercely devoted to protecting Eren Yeager.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Kaladin Stormblessed",
+    "race": "Human (Radiant)",
+    "class": "Windrunner (Squad Leader)",
+    "gender": "male",
+    "stats": {
+      "strength": 60,
+      "agility": 55,
+      "intelligence": 45,
+      "luck": 25
+    },
+    "level": 55,
+    "status": "alive",
+    "special ability": "Surgebinding (Gravitation and Adhesion)",
+    "description": "A former slave and squad leader struggling with depression, who swore the Oath of the Windrunners.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Master Shifu",
+    "race": "Red Panda",
+    "class": "Zen Master",
+    "gender": "male",
+    "stats": {
+      "strength": 20,
+      "agility": 75,
+      "intelligence": 80,
+      "luck": 50
+    },
+    "level": 70,
+    "status": "alive",
+    "special ability": "Inner Peace and Chi Manipulation",
+    "description": "The highly disciplined and wise trainer of the Furious Five and the Dragon Warrior.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Lady Phoenix",
+    "race": "Human (Awakened)",
+    "class": "Flame Ascendant",
+    "gender": "female",
+    "stats": {
+      "strength": 60,
+      "agility": 50,
+      "intelligence": 45,
+      "luck": 60
+    },
+    "level": 35,
+    "status": "alive",
+    "special ability": "Fire Manipulation",
+    "description": "A powerful and respected Awakened leader in the military hierarchy of the human forces in Shadow Slave.",
+    "imageURL": "/defaultAvatar.jpg"
+  },
+  {
+    "name": "Shepard (Commander)",
+    "race": "Human (N7/Spectre)",
+    "class": "Galaxy Protector",
+    "gender": "female",
+    "stats": {
+      "strength": 60,
+      "agility": 60,
+      "intelligence": 60,
+      "luck": 75
+    },
+    "level": 99,
+    "status": "alive",
+    "special ability": "Biotic/Tech Abilities (Varies by build)",
+    "description": "The first human Spectre, who led the fight to save the galaxy from the existential threat of the Reapers.",
+    "imageURL": "/defaultAvatar.jpg"
+  }
+]

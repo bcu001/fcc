@@ -1,30 +1,27 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+// components
 import Button from "@/components/Button";
 import CharacterCard from "@/components/CharacterCard";
 import Loader from "@/components/Loader";
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import ErrorPage from "@/pages/ErrorPage";
+
+// hooks
+import { serverURL } from "@/hooks/serverURL";
+import useDocumentTitle from "@/hooks/useDocumentTitle";
+import useFetch from "@/hooks/useFetch";
 
 const HomePage = () => {
-  const serverURL = import.meta.env.VITE_SEVER_URL;
-  const [charList, setCharList] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    getAllCharacter();
-  }, []);
-  const getAllCharacter = async () => {
-    try {
-      setIsLoading(true);
-      const res = await axios.get(`${serverURL}/api/v1/characters/`);
-      setCharList(res.data);
-      setIsLoading(false);
-      //   console.log(res.data);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  useDocumentTitle("FCC | Home");
+  const {
+    data: charList,
+    isLoading,
+    error,
+  } = useFetch(`${serverURL}/api/v1/characters?limit=9`);
 
   if (isLoading) return <Loader />;
+  if (error) return <ErrorPage error={error} />;
 
   return (
     <div className="overflow-hidden flex flex-wrap gap-10 justify-start mx-4 mt-4">
@@ -41,7 +38,7 @@ const HomePage = () => {
         </Link>
       </div>
 
-      <div className="w-full overflow-hidden flex flex-wrap gap-4 justify-center pt-2">
+      <div className="w-full overflow-hidden flex flex-wrap gap-4 justify-center py-2">
         {charList.map((ch) => (
           <CharacterCard key={ch._id} character={ch} />
         ))}

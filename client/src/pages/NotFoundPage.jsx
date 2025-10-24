@@ -1,6 +1,10 @@
 import React from "react";
 import Loader from "@/components/Loader";
+import useDocumentTitle from "@/hooks/useDocumentTitle";
+
 const NotFoundPage = () => {
+  useDocumentTitle("Error 404");
+  
   return (
     <div className="text-center font-bold text-5xl ">
       <Loader />

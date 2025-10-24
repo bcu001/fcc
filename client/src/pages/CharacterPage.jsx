@@ -1,56 +1,29 @@
-import axios from "axios";
-import React, { useCallback, useEffect, useState } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
+
+// components
 import Loader from "@/components/Loader";
 import Stat from "@/components/Stat";
+import ErrorPage from "./ErrorPage";
+
+// hooks
+import useFetch from "@/hooks/useFetch";
+import { serverURL } from "@/hooks/serverURL";
+import useDocumentTitle from "@/hooks/useDocumentTitle";
 
 const CharacterPage = () => {
-  const serverURL = import.meta.env.VITE_SEVER_URL;
   const { id } = useParams();
-  const [character, setCharacter] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
-  const [hasError, setHasError] = useState(false);
+  const {
+    data: character,
+    isLoading,
+    error,
+  } = useFetch(`${serverURL}/api/v1/characters/${id}`);
 
-  const handleCharacter = useCallback(async () => {
-    setIsLoading(true);
-    setHasError(false);
-    try {
-      const res = await axios.get(`${serverURL}/api/v1/characters/${id}`);
-      setCharacter(res.data);
-    } catch (error) {
-      console.error("Error fetching character:", error);
-      setCharacter(null); // Ensure null on error
-      setHasError(true); // Set error state
-    } finally {
-      setIsLoading(false);
-    }
-  }, [id]);
+  useDocumentTitle(`Character | ${character?.name || "loading..."}`);
 
-  useEffect(() => {
-    handleCharacter();
-  }, [handleCharacter]);
+  if (isLoading) return <Loader />;
+  if (error) return <ErrorPage error={error} />;
 
-  // --- Render Logic ---
-
-  if (isLoading) {
-    return <Loader />;
-  }
-
-  if (hasError || !character) {
-    return (
-      <div className="text-center p-10">
-        <h1 className="text-xl font-bold text-red-600">
-          Error: Character Not Found 🏴‍☠️
-        </h1>
-        <p>
-          Could not load character with ID: {id}. Please check the ID or API
-          status.
-        </p>
-      </div>
-    );
-  }
-
-  // Safely access stats, defaulting to an empty object if stats is missing or null
   const stats = character.stats || {};
   const specialAbility = character["special ability"] || "none";
 

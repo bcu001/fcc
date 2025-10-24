@@ -13,8 +13,18 @@ export const getRandomChar = async (req, res) => {
 
 export const getAllCharacters = async (req, res) => {
     // get info all the character from db
+
     try {
-        const allCharacters = await character.find({});
+        let query = character.find({});
+
+        if (req.query.limit) {
+            const limit = parseInt(req.query.limit, 10);
+            if (isNaN(limit) || limit <= 0) {
+                return res.status(400).json({ message: "Invalid 'limit' parameter" });
+            }
+            query = query.limit(limit)
+        }
+        const allCharacters = await query.exec();
         res.status(200).send(allCharacters);
     } catch (error) {
         res.status(500).json({ message: "Internal server error fetching data from db" });
@@ -31,7 +41,7 @@ export const getCharacter = async (req, res) => {
         else res.status(404).json({ message: `Character with ID ${targetId} not found` });
     } catch (err) {
         console.error("Error in getCharacter:", err.message);
-        res.status(500).json({ message: "Internal server error reading or parsing data" });
+        res.status(500).json({ message: `Character with ID ${targetId} not found`  });
     }
 }
 

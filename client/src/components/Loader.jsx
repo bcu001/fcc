@@ -1,16 +1,13 @@
 import React from "react";
-// Don't forget to create a HamsterSpinner.css file and put the CSS there
 
 const HamsterSpinner = () => {
   return (
-    // Use an inline style to set the CSS variable,
-    // which controls the animation duration.
     <div className="mt-40 flex items-center justify-center">
       <div
         aria-label="Orange and tan hamster running in a metal wheel"
         role="img"
         className="wheel-and-hamster"
-        style={{ "--dur": "1s" }} // Setting the CSS variable --dur
+        style={{ "--dur": "1s" }} 
       >
         <div className="wheel"></div>
         <div className="hamster">

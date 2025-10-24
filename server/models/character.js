@@ -15,7 +15,7 @@ const characterSchema = new mongoose.Schema({
     status: { type: String, default: "alive", enum: ["alive", "dead"] },
     "special ability": { type: String, default: "none" },
     description: { type: String, default: "none" },
-    imageURL: { type: String },
+    imageURL: { type: String , default: "/defaultAvatar.jpg"},
 }, {
     timestamps: true,
 });

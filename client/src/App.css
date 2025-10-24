@@ -2,20 +2,28 @@
 
 :root {
     /* Main Backgrounds and Text */
-    --backgroundClr: #0F172A;          /* Deep Navy/Slate - Page Background */
-    --foregroundClr: #E2E8F0;          /* Off-White/Light Slate - Main Text */
-    
+    --backgroundClr: #0F172A;
+    /* Deep Navy/Slate - Page Background */
+    --foregroundClr: #E2E8F0;
+    /* Off-White/Light Slate - Main Text */
+
     /* Primary Action/Highlight Colors */
-    --primary: #6366F1;               /* Tailwind Indigo-500 - CTA/Highlight */
-    --primaryForeground: #FFFFFF;      /* Text color for primary button */
-    
+    --primary: #6366F1;
+    /* Tailwind Indigo-500 - CTA/Highlight */
+    --primaryForeground: #FFFFFF;
+    /* Text color for primary button */
+
     /* Card/Elevated Surface Colors */
-    --secondary: #1E293B;             /* Darker Slate - Card Background */
-    --secondaryForeground: #94A3B8;    /* Muted Text (Race/Class/Details) */
-    
+    --secondary: #1E293B;
+    /* Darker Slate - Card Background */
+    --secondaryForeground: #94A3B8;
+    /* Muted Text (Race/Class/Details) */
+
     /* Component Specific */
-    --statBox: #334155;                /* Dark Blue/Gray - Stat Box Background */
-    --input-bg: #020617;               /* Very Dark Input Background */
+    --statBox: #334155;
+    /* Dark Blue/Gray - Stat Box Background */
+    --input-bg: #020617;
+    /* Very Dark Input Background */
     --charCard: var(--secondary);
 }
 
@@ -34,7 +42,9 @@ body {
     color: var(--foregroundClr);
 }
 
-input, option, select{
+input,
+option,
+select {
     background-color: var(--input-bg);
     color: var(--foregroundClr);
 }

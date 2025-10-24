@@ -19,21 +19,22 @@ app.use(
 );
 
 // routes
-app.use("/api/v1/characters", character) 
+app.use("/api/v1/characters", character)
 
 
 // endpoint used to quickly added dummyData to mongodb
 app.get("/test", async (req, res) => {
     try {
-        // const data = await fs.readFile("./dummyData/character.json");
+        // const data = await fs.readFile("./dummyData/character5.json");
         // const charList = await JSON.parse(data);
 
         // for(let i=0; i<charList.length; i++){
         //     const temp = charList[i];
-        //     const newc = new _character(temp);
+        //     const newc = new _character(temp); 
         //     newc.save();
         // }
-        res.send("Test endpoint")
+        const allCharacters = await _character.find({}).select("name");
+        res.json(allCharacters)
     } catch (error) {
         res.json({ message: error.message });
     }
