@@ -14,7 +14,15 @@ const PORT = process.env.SERVER_PORT || 3000;
 app.use(express.json());
 app.use(
     cors({
-        origin: "*",
+        origin: [
+            "https://fcc-beige.vercel.app",
+            "https://fcc-bcu001.vercel.app",
+            "https://fcc-git-main-bcu001.vercel.app",
+            "https://fcc-1i838v8bn-bcu001.vercel.app",
+            "http://localhost:5173",
+            "http://127.0.0.1:5173",
+        ],
+
     })
 );
 
