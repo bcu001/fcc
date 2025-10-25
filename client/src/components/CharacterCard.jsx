@@ -1,7 +1,8 @@
 import React from "react";
-import Button from "./Button";
+import Button from "./ui/Button";
 import Stat from "./Stat";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const CharacterCard = ({ character }) => {
   const navigate = useNavigate();
@@ -15,7 +16,10 @@ const CharacterCard = ({ character }) => {
   // };
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, scale: 0.1 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.01 }}
       id={character._id}
       className="w-full max-w-[320px] h-[260px] bg-[var(--)] border border-gray-200 rounded-xl p-4 flex flex-col justify-between shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-[1.02]"
     >
@@ -58,7 +62,7 @@ const CharacterCard = ({ character }) => {
           }}
           className="flex-1"
         >
-          <Button text={"View"} color="var(--secondary)" />
+          <Button text={"View"}  />
         </button>
         {/* <button 
           onClick={handleEdit}
@@ -67,7 +71,7 @@ const CharacterCard = ({ character }) => {
           <Button text={"Edit"} color="var(--primary)" />
         </button> */}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

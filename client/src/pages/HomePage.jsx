@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 // components
-import Button from "@/components/Button";
+import Button from "@/components/ui/Button";
 import CharacterCard from "@/components/CharacterCard";
 import Loader from "@/components/Loader";
 import ErrorPage from "@/pages/ErrorPage";
@@ -26,12 +27,16 @@ const HomePage = () => {
   return (
     <div className="overflow-hidden flex flex-wrap gap-10 justify-start mx-4 mt-4">
       <div className="flex justify-between w-full">
-        <div>
+        <motion.div
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
           <h2 className="font-bold">Adventures</h2>
           <p className="text-xs">
             Browse forged characters. Click a card to view details
           </p>
-        </div>
+        </motion.div>
 
         <Link to={"/create"}>
           <Button text={"New Character"} />

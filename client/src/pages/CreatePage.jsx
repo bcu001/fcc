@@ -208,7 +208,7 @@ const CreateCharacterPage = () => {
       <form onSubmit={handleSubmit(onSubmit)} className="my-4">
         <div id="charBox" className="flex flex-col md:flex-row gap-5 w-full">
           {/* Left Column: Core Info & Stats */}
-          <div className="border shadow-lg flex-1 p-3 rounded flex flex-col gap-3">
+          <div className="border border-[var(--secondaryForeground)] shadow-lg flex-1 p-3 rounded flex flex-col gap-3 bg-[var(--secondary)]">
             <div className="text-md font-bold border-b pb-2">
               Core Information
             </div>
@@ -322,7 +322,7 @@ const CreateCharacterPage = () => {
           </div>
 
           {/* Right Column: Description, Ability & Image */}
-          <div className="border shadow-lg flex-2 p-3 rounded flex flex-col gap-4">
+          <div className="border border-[var(--secondaryForeground)] shadow-lg flex-2 p-3 rounded flex flex-col gap-4 bg-[var(--secondary)]">
             {/* Image URL */}
             <FormInput
               label="Image URL"

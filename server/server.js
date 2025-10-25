@@ -2,6 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import connectDB from './db/db.js';
 import character from './routes/character.js';
+import search from "./routes/search.js"
 import _character from "./models/character.js"
 import fs from 'fs/promises'
 import cors from 'cors';
@@ -28,6 +29,7 @@ app.use(
 
 // routes
 app.use("/api/v1/characters", character)
+app.use("/api/v1/search", search)
 
 
 // endpoint used to quickly added dummyData to mongodb

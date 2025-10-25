@@ -52,7 +52,7 @@ export const postNewCharacter = async (req, res) => {
     try {
         const newChar = new character(_char);
         await newChar.save();
-        res.status(200).send("Data saved in db succesusfully!");
+        res.status(201).send("Data saved in db succesusfully!");
     } catch (error) {
         console.error("Error in postNewCharacter:", error.message);
         res.status(500).json({ message: "Internal server error handling" });
